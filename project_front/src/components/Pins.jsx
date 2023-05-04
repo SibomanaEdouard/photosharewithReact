@@ -103,7 +103,7 @@ const Pins = ({pin: {postedBy , image, _id , destination, asset , save}}) => {
         href={destination}
         target='_blank'
         rel='noreferrer'
-        className='bg-white flex items-center gap-2 text-black font-bold p-2 pl-2 pr-2 gap-1 rounded-full opacity-70 hover:100 hover:shadow-md'
+        className='bg-white flex items-center text-black font-bold p-2 pl-2 pr-2 gap-1 rounded-full opacity-70 hover:100 hover:shadow-md'
         >
         <BsFillArrowUpRightCircleFill />
          {destination && destination.slice(12,20)}...
